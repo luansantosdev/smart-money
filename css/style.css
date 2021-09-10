@@ -228,6 +228,13 @@
       -ms-flex-align: center;
           align-items: center;
   z-index: 1000;
+  margin-right: 200px;
+}
+
+@media screen and (max-width: 960px) {
+  .mentor {
+    margin-right: 0px;
+  }
 }
 
 h1 {
