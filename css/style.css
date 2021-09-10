@@ -209,6 +209,13 @@
   z-index: 800;
 }
 
+@media screen and (max-width: 960px) {
+  .logo {
+    width: 250px;
+    height: 250px;
+  }
+}
+
 .mentor {
   width: 400px;
   height: 400px;

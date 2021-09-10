@@ -178,6 +178,11 @@ $container-s: 540px;
   align-items: center;
 
   z-index: 800;
+
+  @include responsive(s) {
+    width: 250px;
+    height: 250px;
+  }
 }
 
 .mentor {
