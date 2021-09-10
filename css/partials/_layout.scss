@@ -57,6 +57,13 @@ $container-s: 540px;
   }
 }
 
+.box {
+  max-width: $container-xl;
+  margin: 0 auto;
+
+  padding: 0px 24px;
+}
+
 .flex-top {
   display: flex;
   justify-content: center;
