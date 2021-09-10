@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Money</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600&family=Source+Sans+Pro:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/svg-inject.min.js"></script>
+  </head>
+  <body>
+    <!-- HERO -->
+    <main class="container py-2" style="background-color: #011913">
+      <div class="flex-item-1 py-2 mx-5" data-aos="fade-up" data-aos-delay="200">
+        <div class="logo">
+          <img src="svg/logo-2.svg" alt="Smart Money" onload="SVGInject(this)" />
+        </div>
+        <p class="my-2">
+          Aprenda a metodologia de bilionários e grandes investidores para fazer dinheiro de forma inteligente e construir a sua liberdade de escala
+          financeira
+        </p>
+        <div class="flex-start">
+          <a href="#" class="btn bold">FAZER INSCRIÇÃO</a>
+        </div>
+      </div>
+
+      <div class="flex-item-2 flex-center py-4" data-aos="fade-up" data-aos-delay="400">
+        <div class="mentor mr-5 js-tilt">
+          <img src="img/joao-kepler-bg.png" alt="João Kepler" />
+        </div>
+      </div>
+    </main>
+
+    <!-- 400 startups -->
+    <section class="container">
+      <div class="flex-center text-center mx-5" data-aos="fade-up" data-aos-delay="0">
+        <h3>Eu vou revelar tudo o que fiz e faço a frente de 400 startups e que você precisa fazer para conquistar a sua liberdade</h3>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <section class="container flex-top">
+        <div>
+          <h4 class="color-white weight-light">Nubank</h4>
+          <ul class="list mt-2 pt-2">
+            <li><a href="">Sobre nós</a></li>
+            <li><a href="">Carreiras</a></li>
+            <li><a href="">Perguntas Frequentes</a></li>
+            <li><a href="">Contato</a></li>
+            <li><a href="">Imprensa</a></li>
+          </ul>
+        </div>
+        <div class="ml-4">
+          <h4 class="color-white weight-light">Produtos</h4>
+          <ul class="list mt-2 pt-2">
+            <li><a href="">Conta Digital</a></li>
+            <li><a href="">Cartão de crédito</a></li>
+            <li><a href="">Rewards</a></li>
+            <li><a href="">Empréstimo</a></li>
+            <li><a href="">Conta PJ</a></li>
+          </ul>
+        </div>
+        <div class="ml-4">
+          <h4 class="color-white weight-light">Fale conosco</h4>
+          <ul class="list mt-2 pt-2">
+            <li><a href="">0800 608 6236</a></li>
+            <li><a href="">meajuda@nubank.com.br</a></li>
+            <li><a href="">Atendimento 24h</a></li>
+          </ul>
+        </div>
+        <div class="ml-4">
+          <h4 class="color-white weight-light">Explore mais</h4>
+          <ul class="list mt-2 pt-2">
+            <li><a href="">Comunidade</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Newsletter</a></li>
+          </ul>
+        </div>
+        <div class="ml-4">
+          <h4 class="color-white weight-light">Baixe o App</h4>
+          <div class="mt-2 pt-2 flex-start">
+            <a href=""><img src="svg/app-store.svg" class="button-app w-auto" alt="" onload="SVGInject(this)" /></a>
+            <a href=""><img src="svg/google-play.svg" class="button-app w-auto ml-2" alt="" onload="SVGInject(this)" /></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="container flex-spacebetween py-3 bt-purple">
+        <div class="flex-start">
+          <img src="svg/logonu-white.svg" style="max-width: 96px" alt="" onload="SVGInject(this)" />
+          <p class="color-white ml-2">
+            Nu Pagamentos S.A. 18.236.120/0001-58 <br />
+            Rua Capote Valente, 39 - São Paulo, SP - 05409-000
+          </p>
+        </div>
+        <div class="flex-start">
+          <a href=""><img src="svg/icon-facebook.svg" class="icon-networks mx-1" alt="" onload="SVGInject(this)" /></a>
+          <a href=""><img src="svg/icon-youtube.svg" class="icon-networks mx-1" alt="" onload="SVGInject(this)" /></a>
+          <a href=""><img src="svg/icon-instagram.svg" class="icon-networks mx-1" alt="" onload="SVGInject(this)" /></a>
+          <a href=""><img src="svg/icon-twitter.svg" class="icon-networks mx-1" alt="" onload="SVGInject(this)" /></a>
+        </div>
+      </section>
+    </footer>
+
+    <!-- JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+    <script>
+      $(".js-tilt").tilt({
+        perspective: 2200,
+      });
+    </script>
+    <script>
+      AOS.init({
+        easing: "ease-out-quart", // curva de transição
+        duration: 1000, // duração da transição
+        once: true, // animar só uma vez
+      });
+    </script>
+  </body>
+</html>
