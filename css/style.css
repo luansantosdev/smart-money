@@ -194,14 +194,6 @@
   color: #bb71d2;
 }
 
-footer {
-  background: linear-gradient(220.94deg, #a950c4 14.43%, #82269e 85.28%);
-}
-
-.bt-purple {
-  border-top: 1px solid #bb71d2;
-}
-
 .logo {
   width: 300px;
   height: 300px;
@@ -708,5 +700,13 @@ svg,
 img {
   display: block;
   width: 100%;
+}
+
+footer {
+  background-color: #e0e0e0;
+}
+
+.bt-purple {
+  border-top: 1px solid #bb71d2;
 }
 /*# sourceMappingURL=style.css.map */
