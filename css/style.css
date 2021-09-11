@@ -5,6 +5,7 @@
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  letter-spacing: 0.08em;
 }
 
 .color-white {
@@ -14,7 +15,7 @@
 .container {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 96px 24px;
+  padding: 64px 24px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -245,16 +246,21 @@
   }
 }
 
+@font-face {
+  font-family: "Din Condensed ";
+  src: url("../fonts/DIN-Condensed - Regular.otf");
+}
+
 h1 {
   color: #f7f2fa;
-  font-family: "Sora", sans-serif;
+  font-family: "Din Condensed ", sans-serif;
   font-size: 64px;
   line-height: 100%;
 }
 
 @media screen and (max-width: 960px) {
   h1 {
-    font-family: "Sora", sans-serif;
+    font-family: "Din Condensed ", sans-serif;
     font-size: 36px;
     line-height: 120%;
   }
@@ -262,14 +268,14 @@ h1 {
 
 h2 {
   color: #f7f2fa;
-  font-family: "Sora", sans-serif;
-  font-size: 52px;
+  font-family: "Din Condensed ", sans-serif;
+  font-size: 50px;
   line-height: 110%;
 }
 
 @media screen and (max-width: 960px) {
   h2 {
-    font-family: "Sora", sans-serif;
+    font-family: "Din Condensed ", sans-serif;
     font-size: 36px;
     line-height: 120%;
   }
@@ -277,14 +283,14 @@ h2 {
 
 h3 {
   color: #f7f2fa;
-  font-family: "Sora", sans-serif;
+  font-family: "Din Condensed ", sans-serif;
   font-size: 36px;
   line-height: 120%;
 }
 
 @media screen and (max-width: 960px) {
   h3 {
-    font-family: "Sora", sans-serif;
+    font-family: "Din Condensed ", sans-serif;
     font-size: 24px;
     line-height: 120%;
   }
@@ -292,14 +298,14 @@ h3 {
 
 h4 {
   color: #f7f2fa;
-  font-family: "Sora", sans-serif;
+  font-family: "Din Condensed ", sans-serif;
   font-size: 24px;
   line-height: 130%;
 }
 
 @media screen and (max-width: 960px) {
   h4 {
-    font-family: "Sora", sans-serif;
+    font-family: "Din Condensed ", sans-serif;
     font-size: 18px;
     line-height: 130%;
   }
@@ -312,14 +318,14 @@ h5 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
-  font-family: "Sora", sans-serif;
+  font-family: "Din Condensed ", sans-serif;
   font-size: 18px;
   line-height: 140%;
 }
 
 @media screen and (max-width: 960px) {
   h5 {
-    font-family: "Sora", sans-serif;
+    font-family: "Din Condensed ", sans-serif;
     font-size: 16px;
     line-height: 150%;
   }
@@ -327,16 +333,16 @@ h5 {
 
 p {
   color: #f7f2fa;
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 16px;
-  line-height: 140%;
+  font-family: "Din Condensed ", sans-serif;
+  font-size: 24px;
+  line-height: 130%;
 }
 
 @media screen and (max-width: 960px) {
   p {
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 14px;
-    line-height: 150%;
+    font-family: "Din Condensed ", sans-serif;
+    font-size: 18px;
+    line-height: 130%;
   }
 }
 
@@ -347,14 +353,14 @@ p {
 
 strong {
   color: #161617;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Din Condensed ", sans-serif;
   font-size: 16px;
   line-height: 140%;
 }
 
 @media screen and (max-width: 960px) {
   strong {
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: "Din Condensed ", sans-serif;
     font-size: 14px;
     line-height: 150%;
   }
@@ -369,7 +375,7 @@ strong {
 }
 
 a {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Din Condensed ", sans-serif;
   font-size: 24px;
   line-height: 130%;
   text-decoration: none;
@@ -388,7 +394,7 @@ a:hover {
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
   color: #232224;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Din Condensed ", sans-serif;
   font-size: 24px;
   line-height: 130%;
 }
@@ -404,7 +410,7 @@ a:hover {
   background-color: #00e1be;
   padding: 8px 32px;
   color: #232224;
-  font-family: "Sora", sans-serif;
+  font-family: "Din Condensed ", sans-serif;
   font-size: 36px;
   line-height: 120%;
 }
