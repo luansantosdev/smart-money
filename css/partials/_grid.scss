@@ -1,0 +1,49 @@
+.grid {
+  max-width: $container-xl;
+  display: grid;
+  grid-gap: 8px;
+  grid-template-areas: "a b c d e";
+
+  @include responsive(s) {
+    grid-template-areas:
+      "a"
+      "b"
+      "c"
+      "d"
+      "e";
+  }
+}
+
+.grid-a {
+  grid-area: a;
+  svg {
+    height: 100%;
+  }
+}
+
+.grid-b {
+  grid-area: b;
+  svg {
+    height: 100%;
+  }
+}
+.grid-c {
+  grid-area: c;
+  svg {
+    height: 100%;
+  }
+}
+
+.grid-d {
+  grid-area: d;
+  svg {
+    height: 100%;
+  }
+}
+
+.grid-e {
+  grid-area: e;
+  svg {
+    height: 100%;
+  }
+}
