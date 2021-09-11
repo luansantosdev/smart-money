@@ -213,7 +213,7 @@ $container-s: 540px;
 .divider {
   @include responsive(xl) {
     border-left: 2px solid $primary-light;
-    padding: 8px 12px;
+    padding: 8px 16px;
   }
   @include responsive(l) {
     border-left: 2px solid $primary-light;
