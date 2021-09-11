@@ -288,7 +288,7 @@ h1 {
 @media screen and (max-width: 960px) {
   h1 {
     font-family: "Din Condensed ", sans-serif;
-    font-size: 36px;
+    font-size: 48px;
     line-height: 120%;
   }
 }
@@ -826,6 +826,7 @@ img {
   grid-gap: 8px;
       grid-template-areas: "a b c d e f g";
   margin-left: 150px;
+  margin-right: 150px;
 }
 
 @media screen and (max-width: 960px) {
@@ -833,6 +834,7 @@ img {
         grid-template-areas: "a b c" "d e f" "g g g";
     grid-gap: 8px;
     margin-left: 24px;
+    margin-right: 24px;
   }
 }
 
@@ -888,31 +890,31 @@ img {
 }
 
 .photo-1 {
-  background-image: url("../../img/thiago-nigro.jpg");
+  background-image: url("../img/thiago-nigro.jpg");
 }
 
 .photo-2 {
-  background-image: url("../../img/joel-jota.png");
+  background-image: url("../img/joel-jota.png");
 }
 
 .photo-3 {
-  background-image: url("../../img/caito-maia.jpg");
+  background-image: url("../img/caito-maia.jpg");
 }
 
 .photo-4 {
-  background-image: url("../../img/camila-farani.jpg");
+  background-image: url("../img/camila-farani.jpg");
 }
 
 .photo-5 {
-  background-image: url("../../img/pablo-marcal.jpg");
+  background-image: url("../img/pablo-marcal.jpg");
 }
 
 .photo-6 {
-  background-image: url("../../img/paulo-vieira.jpg");
+  background-image: url("../img/paulo-vieira.jpg");
 }
 
 .photo-7 {
-  background-image: url("../../img/andre-diamand.jpg");
+  background-image: url("../img/andre-diamand.jpg");
 }
 
 footer {
