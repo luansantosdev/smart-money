@@ -36,3 +36,85 @@
 .grid-e {
   grid-area: e;
 }
+
+.grid-mentor {
+  max-width: $container-xl;
+  display: grid;
+  grid-gap: 8px;
+  grid-template-areas: "a b c d e f g";
+  margin-left: 150px;
+
+  @include responsive(s) {
+    grid-template-areas:
+      "a b c"
+      "d e f"
+      "g g g";
+
+    grid-gap: 8px;
+    margin-left: 24px;
+  }
+}
+
+.grid-mentor-a {
+  grid-area: a;
+}
+
+.grid-mentor-b {
+  grid-area: b;
+}
+.grid-mentor-c {
+  grid-area: c;
+}
+
+.grid-mentor-d {
+  grid-area: d;
+}
+
+.grid-mentor-e {
+  grid-area: e;
+}
+
+.grid-mentor-f {
+  grid-area: f;
+}
+
+.grid-mentor-g {
+  grid-area: g;
+}
+
+.photo-profile {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 2px solid $primary-light;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.photo-1 {
+  background-image: url("../../img/thiago-nigro.jpg");
+}
+
+.photo-2 {
+  background-image: url("../../img/joel-jota.png");
+}
+
+.photo-3 {
+  background-image: url("../../img/caito-maia.jpg");
+}
+
+.photo-4 {
+  background-image: url("../../img/camila-farani.jpg");
+}
+
+.photo-5 {
+  background-image: url("../../img/pablo-marcal.jpg");
+}
+
+.photo-6 {
+  background-image: url("../../img/paulo-vieira.jpg");
+}
+
+.photo-7 {
+  background-image: url("../../img/andre-diamand.jpg");
+}
