@@ -186,8 +186,8 @@ $container-s: 540px;
   z-index: 800;
 
   @include responsive(s) {
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
   }
 }
 
