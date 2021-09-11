@@ -148,8 +148,7 @@ $container-s: 540px;
   list-style: none;
   position: relative;
 
-  padding: 8px 8px 8px 72px;
-  margin-bottom: 36px;
+  margin-bottom: 24px;
 
   &::after {
     content: "";
@@ -185,6 +184,11 @@ $container-s: 540px;
   align-items: center;
 
   z-index: 800;
+
+  @include responsive(s) {
+    width: 350px;
+    height: 350px;
+  }
 }
 
 .mentor {
@@ -197,9 +201,11 @@ $container-s: 540px;
 
   z-index: 1000;
 
-  margin-right: 200px;
+  margin-right: 216px;
 
   @include responsive(s) {
-    margin-right: 0px;
+    margin-right: 8px;
+    width: 350px;
+    height: 350px;
   }
 }
