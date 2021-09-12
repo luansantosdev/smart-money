@@ -131,8 +131,8 @@
 }
 
 .photo-profile {
-  width: 70px;
-  height: 70px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   border: 2px solid $primary-light;
   background-repeat: no-repeat;
@@ -167,6 +167,10 @@
   background-image: url("../img/andre-diamand.jpg");
 }
 
+.photo-8 {
+  background-image: url("../img/joao-kepler.jpg");
+}
+
 .divider {
   @include responsive(xl) {
     border-left: 2px solid $primary-light;
@@ -178,7 +182,7 @@
   }
   @include responsive(m) {
     border-left: 2px solid $primary-light;
-    padding: 12px;
+    padding: 16px;
   }
   @include responsive(s) {
     border-top: 2px solid $primary-light;
@@ -187,18 +191,41 @@
 
 .divider-h {
   @include responsive(xl) {
-    border-left: 0px solid $primary-light;
     padding: 16px;
   }
   @include responsive(l) {
-    border-left: 0px solid $primary-light;
     padding: 16px;
   }
   @include responsive(m) {
-    border-left: 0px solid $primary-light;
     padding: 12px;
   }
   @include responsive(s) {
-    border-top: 0px solid $primary-light;
+    border-top: 2px solid $primary-light;
+  }
+}
+
+.card-price h1 sup {
+  font-size: 16px;
+  display: inline-block;
+  margin-left: -20px;
+  width: 10px;
+}
+
+.card-price h1 small {
+  color: rgba(0, 0, 0, 0.418);
+  display: block;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.small {
+  text-transform: uppercase;
+  color: $gray-4;
+  font-weight: bold;
+
+  @include typeface-1(h5, desktop);
+
+  @include responsive(s) {
+    @include typeface-1(h5, mobile);
   }
 }
