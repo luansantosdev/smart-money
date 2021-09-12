@@ -84,6 +84,52 @@
   grid-area: g;
 }
 
+.grid-bonus {
+  max-width: $container-xl;
+  display: grid;
+  grid-gap: 12px;
+  grid-template-areas:
+    "a b c"
+    "d e f";
+  margin-left: 48px;
+
+  @include responsive(s) {
+    grid-template-areas:
+      "a"
+      "b"
+      "c"
+      "d"
+      "e"
+      "f";
+
+    grid-gap: 8px;
+    margin-left: 24px;
+  }
+}
+
+.grid-bonus-a {
+  grid-area: a;
+}
+
+.grid-bonus-b {
+  grid-area: b;
+}
+.grid-bonus-c {
+  grid-area: c;
+}
+
+.grid-bonus-d {
+  grid-area: d;
+}
+
+.grid-bonus-e {
+  grid-area: e;
+}
+
+.grid-bonus-f {
+  grid-area: f;
+}
+
 .photo-profile {
   width: 70px;
   height: 70px;
@@ -119,4 +165,40 @@
 
 .photo-7 {
   background-image: url("../img/andre-diamand.jpg");
+}
+
+.divider {
+  @include responsive(xl) {
+    border-left: 2px solid $primary-light;
+    padding: 16px;
+  }
+  @include responsive(l) {
+    border-left: 2px solid $primary-light;
+    padding: 16px;
+  }
+  @include responsive(m) {
+    border-left: 2px solid $primary-light;
+    padding: 12px;
+  }
+  @include responsive(s) {
+    border-top: 2px solid $primary-light;
+  }
+}
+
+.divider-h {
+  @include responsive(xl) {
+    border-left: 0px solid $primary-light;
+    padding: 16px;
+  }
+  @include responsive(l) {
+    border-left: 0px solid $primary-light;
+    padding: 16px;
+  }
+  @include responsive(m) {
+    border-left: 0px solid $primary-light;
+    padding: 12px;
+  }
+  @include responsive(s) {
+    border-top: 0px solid $primary-light;
+  }
 }

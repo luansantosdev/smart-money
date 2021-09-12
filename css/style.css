@@ -246,33 +246,6 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
-  .divider {
-    border-left: 2px solid #00e1be;
-    padding: 8px 16px;
-  }
-}
-
-@media screen and (max-width: 1440px) and (min-width: 1140px) {
-  .divider {
-    border-left: 2px solid #00e1be;
-    padding: 12px 16px;
-  }
-}
-
-@media screen and (max-width: 1140px) and (min-width: 960px) {
-  .divider {
-    border-left: 2px solid #00e1be;
-    padding: 8px 12px;
-  }
-}
-
-@media screen and (max-width: 960px) {
-  .divider {
-    border-top: 2px solid #00e1be;
-  }
-}
-
 @font-face {
   font-family: "Din Condensed ";
   src: url("../fonts/DIN-Condensed - Regular.otf");
@@ -808,14 +781,14 @@ img {
 }
 
 .grid-d {
-  -ms-grid-row: 1;
-  -ms-grid-column: 4;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
   grid-area: d;
 }
 
 .grid-e {
-  -ms-grid-row: 1;
-  -ms-grid-column: 5;
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
   grid-area: e;
 }
 
@@ -857,20 +830,20 @@ img {
 }
 
 .grid-mentor-d {
-  -ms-grid-row: 1;
-  -ms-grid-column: 4;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
   grid-area: d;
 }
 
 .grid-mentor-e {
-  -ms-grid-row: 1;
-  -ms-grid-column: 5;
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
   grid-area: e;
 }
 
 .grid-mentor-f {
-  -ms-grid-row: 1;
-  -ms-grid-column: 6;
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
   grid-area: f;
 }
 
@@ -878,6 +851,59 @@ img {
   -ms-grid-row: 1;
   -ms-grid-column: 7;
   grid-area: g;
+}
+
+.grid-bonus {
+  max-width: 1440px;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 12px;
+      grid-template-areas: "a b c" "d e f";
+  margin-left: 48px;
+}
+
+@media screen and (max-width: 960px) {
+  .grid-bonus {
+        grid-template-areas: "a" "b" "c" "d" "e" "f";
+    grid-gap: 8px;
+    margin-left: 24px;
+  }
+}
+
+.grid-bonus-a {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: a;
+}
+
+.grid-bonus-b {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: b;
+}
+
+.grid-bonus-c {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: c;
+}
+
+.grid-bonus-d {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: d;
+}
+
+.grid-bonus-e {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: e;
+}
+
+.grid-bonus-f {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: f;
 }
 
 .photo-profile {
@@ -917,11 +943,61 @@ img {
   background-image: url("../img/andre-diamand.jpg");
 }
 
-footer {
-  background-color: #e0e0e0;
+@media screen and (min-width: 1440px) {
+  .divider {
+    border-left: 2px solid #00e1be;
+    padding: 16px;
+  }
 }
 
-.bt-purple {
-  border-top: 1px solid #bb71d2;
+@media screen and (max-width: 1440px) and (min-width: 1140px) {
+  .divider {
+    border-left: 2px solid #00e1be;
+    padding: 16px;
+  }
+}
+
+@media screen and (max-width: 1140px) and (min-width: 960px) {
+  .divider {
+    border-left: 2px solid #00e1be;
+    padding: 12px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .divider {
+    border-top: 2px solid #00e1be;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .divider-h {
+    border-left: 0px solid #00e1be;
+    padding: 16px;
+  }
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1140px) {
+  .divider-h {
+    border-left: 0px solid #00e1be;
+    padding: 16px;
+  }
+}
+
+@media screen and (max-width: 1140px) and (min-width: 960px) {
+  .divider-h {
+    border-left: 0px solid #00e1be;
+    padding: 12px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .divider-h {
+    border-top: 0px solid #00e1be;
+  }
+}
+
+footer {
+  background-color: #e0e0e0;
 }
 /*# sourceMappingURL=style.css.map */

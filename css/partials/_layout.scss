@@ -209,21 +209,3 @@ $container-s: 540px;
     height: 350px;
   }
 }
-
-.divider {
-  @include responsive(xl) {
-    border-left: 2px solid $primary-light;
-    padding: 8px 16px;
-  }
-  @include responsive(l) {
-    border-left: 2px solid $primary-light;
-    padding: 12px 16px;
-  }
-  @include responsive(m) {
-    border-left: 2px solid $primary-light;
-    padding: 8px 12px;
-  }
-  @include responsive(s) {
-    border-top: 2px solid $primary-light;
-  }
-}
