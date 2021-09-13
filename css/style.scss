@@ -7,11 +7,11 @@
   letter-spacing: 0.08em;
 }
 
-@import "partials/colors";
-@import "partials/layout";
-@import "partials/typography";
-@import "partials/buttons";
-@import "partials/spacing";
+@import "sass/colors";
+@import "sass/layout";
+@import "sass/typography";
+@import "sass/buttons";
+@import "sass/spacing";
 
 html {
   scroll-behavior: smooth;
@@ -33,5 +33,5 @@ img {
   width: 100%;
 }
 
-@import "partials/grid";
-@import "partials/footer";
+@import "sass/grid";
+@import "sass/footer";

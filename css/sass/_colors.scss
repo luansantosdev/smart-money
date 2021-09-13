@@ -5,10 +5,6 @@ $primary-normal: #001e1f;
 $primary-dark: #011913;
 $primary-light: #00e1be;
 
-$secondary-normal: #a950c4;
-$secondary-dark: #9142a8;
-$secondary-light: #bb71d2;
-
 // Neutral-colors
 $black-normal: #232224;
 $black-dark: #161617;
@@ -42,4 +38,23 @@ $yellow-light: #ffd76b;
 
 .color-white {
   color: $white-light;
+}
+
+.color-normal {
+  color: $primary-normal;
+}
+.color-cyan-dark {
+  color: $primary-dark;
+}
+.color-cyan-light {
+  color: $primary-light;
+}
+.color-gray {
+  color: $gray-7;
+}
+.bg-primary-light {
+  background-color: #00e1be;
+}
+.bg-color-gray {
+  background-color: $gray-7;
 }

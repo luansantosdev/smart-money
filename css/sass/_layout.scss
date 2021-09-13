@@ -48,7 +48,6 @@ $container-s: 540px;
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  overflow: hidden;
 
   @include responsive(s) {
     flex-direction: column;
@@ -171,7 +170,7 @@ $container-s: 540px;
   }
 
   a {
-    color: $secondary-light;
+    color: $primary-light;
   }
 }
 
@@ -198,8 +197,6 @@ $container-s: 540px;
   display: flex;
   justify-content: center;
   align-items: center;
-
-  z-index: 1000;
 
   margin-right: 216px;
 
