@@ -335,14 +335,14 @@ p {
   color: #f7f2fa;
   font-family: "Din Condensed ", sans-serif;
   font-size: 24px;
-  line-height: 130%;
+  line-height: 140%;
 }
 
 @media screen and (max-width: 960px) {
   p {
     font-family: "Din Condensed ", sans-serif;
     font-size: 18px;
-    line-height: 130%;
+    line-height: 140%;
   }
 }
 
@@ -376,12 +376,13 @@ strong {
 
 span {
   font-family: "Din Condensed ", sans-serif;
+  line-height: 140%;
 }
 
 a {
   font-family: "Din Condensed ", sans-serif;
   font-size: 24px;
-  line-height: 130%;
+  line-height: 140%;
   text-decoration: none;
   color: #161617;
   -webkit-transition: 0.5s ease;
@@ -402,7 +403,7 @@ a:hover {
   color: #232224;
   font-family: "Din Condensed ", sans-serif;
   font-size: 24px;
-  line-height: 130%;
+  line-height: 140%;
 }
 
 .btn:hover {
