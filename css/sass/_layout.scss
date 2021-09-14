@@ -182,8 +182,6 @@ $container-s: 540px;
   justify-content: center;
   align-items: center;
 
-  z-index: 800;
-
   @include responsive(s) {
     width: 270px;
     height: 270px;
@@ -205,6 +203,19 @@ $container-s: 540px;
     width: 350px;
     height: 350px;
   }
+}
+
+.mentor:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 250px;
+  height: 35%;
+  width: 35%;
+  background-color: $primary-light;
+  z-index: -1;
+  -webkit-filter: blur(80px);
+  filter: blur(80px);
 }
 
 .cinquenta-anos {

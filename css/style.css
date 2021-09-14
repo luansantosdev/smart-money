@@ -28,12 +28,28 @@
   color: #e0e0e0;
 }
 
-.bg-primary-light {
+.color-gray-6 {
+  color: #969597;
+}
+
+.bg-color-cyan-light {
   background-color: #00e1be;
 }
 
 .bg-color-gray {
   background-color: #e0e0e0;
+}
+
+.bg-color-cyan-dark {
+  color: #011913;
+}
+
+.bg-color-green {
+  background-color: #036060;
+}
+
+.bg-color-gray {
+  color: #e0e0e0;
 }
 
 .container {
@@ -235,7 +251,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  z-index: 800;
 }
 
 @media screen and (max-width: 960px) {
@@ -266,6 +281,19 @@
     width: 350px;
     height: 350px;
   }
+}
+
+.mentor:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 250px;
+  height: 35%;
+  width: 35%;
+  background-color: #00e1be;
+  z-index: -1;
+  -webkit-filter: blur(80px);
+  filter: blur(80px);
 }
 
 .cinquenta-anos {
@@ -301,7 +329,7 @@ h1 {
 }
 
 h2 {
-  color: #161617;
+  color: #f7f2fa;
   font-family: "Din Condensed", sans-serif;
   font-size: 56px;
   line-height: 110%;
@@ -376,7 +404,6 @@ p {
 }
 
 .p1 {
-  color: #f7f2fa;
   font-family: "Din Condensed", sans-serif;
   font-size: 16px;
   line-height: 140%;
@@ -400,11 +427,6 @@ p {
 
 .weight-light {
   font-weight: 300;
-}
-
-span {
-  position: relative;
-  display: inline-block;
 }
 
 .h7 {

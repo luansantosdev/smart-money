@@ -95,7 +95,7 @@ h1 {
 }
 
 h2 {
-  color: $black-dark;
+  color: $white-normal;
   @include typeface-1(h2, desktop);
 
   @include responsive(s) {
@@ -140,7 +140,6 @@ p {
 }
 
 .p1 {
-  color: $white-normal;
   @include typeface-2(p2, desktop);
 
   @include responsive(s) {
@@ -158,11 +157,6 @@ p {
 
 .weight-light {
   font-weight: 300;
-}
-
-span {
-  position: relative;
-  display: inline-block;
 }
 
 .h7 {

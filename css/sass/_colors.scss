@@ -52,9 +52,22 @@ $yellow-light: #ffd76b;
 .color-gray {
   color: $gray-7;
 }
-.bg-primary-light {
+.color-gray-6 {
+  color: $gray-6;
+}
+
+.bg-color-cyan-light {
   background-color: #00e1be;
 }
 .bg-color-gray {
   background-color: $gray-7;
+}
+.bg-color-cyan-dark {
+  color: $primary-dark;
+}
+.bg-color-green {
+  background-color: #036060;
+}
+.bg-color-gray {
+  color: $gray-7;
 }
