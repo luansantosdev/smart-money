@@ -448,7 +448,7 @@ p {
 @media screen and (max-width: 960px) {
   p {
     font-family: "Din Condensed", sans-serif;
-    font-size: 18px;
+    font-size: 24px;
     line-height: 100%;
   }
 }
@@ -470,7 +470,7 @@ p {
 @media screen and (max-width: 960px) {
   .p1 {
     font-family: "Din Condensed", sans-serif;
-    font-size: 18px;
+    font-size: 24px;
     line-height: 100%;
   }
 }
@@ -478,7 +478,7 @@ p {
 @media screen and (max-width: 540px) {
   .p1 {
     font-family: "Din Condensed", sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 100%;
   }
 }
