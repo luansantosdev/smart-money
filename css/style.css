@@ -273,51 +273,8 @@
   src: url("../fonts/DIN-Condensed - Regular.otf");
 }
 
-.h0 {
-  font-family: "Din Condensed", sans-serif;
-  font-size: 72px;
-  line-height: 100%;
-}
-
-@media screen and (max-width: 960px) {
-  .h0 {
-    font-family: "Din Condensed", sans-serif;
-    font-size: 40px;
-    line-height: 100%;
-  }
-}
-
-@media screen and (max-width: 540px) {
-  .h0 {
-    font-family: "Din Condensed", sans-serif;
-    font-size: 32px;
-    line-height: 100%;
-  }
-}
-
-.h7 {
-  font-family: "Din Condensed", sans-serif;
-  font-size: 32px;
-  line-height: 100%;
-}
-
-@media screen and (max-width: 960px) {
-  .h7 {
-    font-family: "Din Condensed", sans-serif;
-    font-size: 24px;
-    line-height: 100%;
-  }
-}
-
-@media screen and (max-width: 540px) {
-  .h7 {
-    font-family: "Din Condensed", sans-serif;
-  }
-}
-
 h1 {
-  color: #f7f2fa;
-  z-index: 5;
+  color: #161617;
   font-family: "Din Condensed", sans-serif;
   font-size: 64px;
   line-height: 100%;
@@ -327,38 +284,22 @@ h1 {
   h1 {
     font-family: "Din Condensed", sans-serif;
     font-size: 56px;
-    line-height: 100%;
-  }
-}
-
-@media screen and (max-width: 540px) {
-  h1 {
-    font-family: "Din Condensed", sans-serif;
-    font-size: 48px;
-    line-height: 100%;
+    line-height: 120%;
   }
 }
 
 h2 {
-  color: #f7f2fa;
+  color: #161617;
   font-family: "Din Condensed", sans-serif;
   font-size: 56px;
-  line-height: 100%;
+  line-height: 110%;
 }
 
 @media screen and (max-width: 960px) {
   h2 {
     font-family: "Din Condensed", sans-serif;
     font-size: 48px;
-    line-height: 100%;
-  }
-}
-
-@media screen and (max-width: 540px) {
-  h2 {
-    font-family: "Din Condensed", sans-serif;
-    font-size: 40px;
-    line-height: 100%;
+    line-height: 120%;
   }
 }
 
@@ -366,22 +307,14 @@ h3 {
   color: #f7f2fa;
   font-family: "Din Condensed", sans-serif;
   font-size: 48px;
-  line-height: 100%;
+  line-height: 120%;
 }
 
 @media screen and (max-width: 960px) {
   h3 {
     font-family: "Din Condensed", sans-serif;
     font-size: 40px;
-    line-height: 100%;
-  }
-}
-
-@media screen and (max-width: 540px) {
-  h3 {
-    font-family: "Din Condensed", sans-serif;
-    font-size: 32px;
-    line-height: 100%;
+    line-height: 120%;
   }
 }
 
@@ -389,22 +322,14 @@ h4 {
   color: #f7f2fa;
   font-family: "Din Condensed", sans-serif;
   font-size: 40px;
-  line-height: 100%;
+  line-height: 130%;
 }
 
 @media screen and (max-width: 960px) {
   h4 {
     font-family: "Din Condensed", sans-serif;
     font-size: 32px;
-    line-height: 100%;
-  }
-}
-
-@media screen and (max-width: 540px) {
-  h4 {
-    font-family: "Din Condensed", sans-serif;
-    font-size: 24px;
-    line-height: 100%;
+    line-height: 130%;
   }
 }
 
@@ -412,29 +337,14 @@ h5 {
   color: #f7f2fa;
   font-family: "Din Condensed", sans-serif;
   font-size: 32px;
-  line-height: 100%;
+  line-height: 140%;
 }
 
 @media screen and (max-width: 960px) {
   h5 {
     font-family: "Din Condensed", sans-serif;
     font-size: 24px;
-    line-height: 100%;
-  }
-}
-
-h6 {
-  color: #f7f2fa;
-  font-family: "Din Condensed", sans-serif;
-  font-size: 24px;
-  line-height: 100%;
-}
-
-@media screen and (max-width: 960px) {
-  h6 {
-    font-family: "Din Condensed", sans-serif;
-    font-size: 18px;
-    line-height: 100%;
+    line-height: 150%;
   }
 }
 
@@ -442,110 +352,14 @@ p {
   color: #f7f2fa;
   font-family: "Din Condensed", sans-serif;
   font-size: 24px;
-  line-height: 100%;
+  line-height: 130%;
 }
 
 @media screen and (max-width: 960px) {
   p {
-    font-family: "Din Condensed", sans-serif;
-    font-size: 24px;
-    line-height: 100%;
-  }
-}
-
-@media screen and (max-width: 540px) {
-  p {
-    font-family: "Din Condensed", sans-serif;
-    font-size: 14px;
-    line-height: 100%;
-  }
-}
-
-.p1 {
-  font-family: "Din Condensed", sans-serif;
-  font-size: 24px;
-  line-height: 100%;
-}
-
-@media screen and (max-width: 960px) {
-  .p1 {
-    font-family: "Din Condensed", sans-serif;
-    font-size: 24px;
-    line-height: 100%;
-  }
-}
-
-@media screen and (max-width: 540px) {
-  .p1 {
     font-family: "Din Condensed", sans-serif;
     font-size: 18px;
-    line-height: 100%;
-  }
-}
-
-.p2 {
-  font-family: "Din Condensed", sans-serif;
-  font-size: 18px;
-  line-height: 100%;
-}
-
-@media screen and (max-width: 960px) {
-  .p2 {
-    font-family: "Din Condensed", sans-serif;
-    font-size: 16px;
-    line-height: 100%;
-  }
-}
-
-.p3 {
-  font-family: "Din Condensed", sans-serif;
-  font-size: 16px;
-  line-height: 100%;
-}
-
-@media screen and (max-width: 960px) {
-  .p3 {
-    font-family: "Din Condensed", sans-serif;
-    font-size: 16px;
-    line-height: 100%;
-  }
-}
-
-.p4 {
-  font-family: "Din Condensed", sans-serif;
-  font-size: 16px;
-  line-height: 100%;
-}
-
-@media screen and (max-width: 960px) {
-  .p4 {
-    font-family: "Din Condensed", sans-serif;
-    font-size: 14px;
-    line-height: 100%;
-  }
-}
-
-.p5 {
-  font-family: "Din Condensed", sans-serif;
-  font-size: 13px;
-  line-height: 100%;
-}
-
-@media screen and (max-width: 960px) {
-  .p5 {
-    font-family: "Din Condensed", sans-serif;
-    font-size: 13px;
-    line-height: 100%;
-  }
-}
-
-.p-title {
-  font-size: 18px;
-}
-
-@media screen and (max-width: 960px) {
-  .p-title {
-    font-size: 16px;
+    line-height: 130%;
   }
 }
 
@@ -553,18 +367,26 @@ p {
   font-weight: bold;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.weight-light {
+  font-weight: 300;
+}
+
 strong {
   color: #161617;
   font-family: "Din Condensed", sans-serif;
-  font-size: 18px;
-  line-height: 100%;
+  font-size: 16px;
+  line-height: 140%;
 }
 
 @media screen and (max-width: 960px) {
   strong {
     font-family: "Din Condensed", sans-serif;
-    font-size: 16px;
-    line-height: 100%;
+    font-size: 14px;
+    line-height: 150%;
   }
 }
 
@@ -580,7 +402,7 @@ span {
 a {
   font-family: "Din Condensed", sans-serif;
   font-size: 24px;
-  line-height: 100%;
+  line-height: 130%;
   text-decoration: none;
   color: #161617;
   -webkit-transition: 0.5s ease;
@@ -616,7 +438,7 @@ a:hover {
   color: #232224;
   font-family: "Din Condensed", sans-serif;
   font-size: 48px;
-  line-height: 100%;
+  line-height: 120%;
 }
 
 .s-0 {
@@ -1561,14 +1383,14 @@ img {
   font-weight: bold;
   font-family: "Din Condensed", sans-serif;
   font-size: 32px;
-  line-height: 100%;
+  line-height: 140%;
 }
 
 @media screen and (max-width: 960px) {
   .small {
     font-family: "Din Condensed", sans-serif;
     font-size: 24px;
-    line-height: 100%;
+    line-height: 150%;
   }
 }
 
