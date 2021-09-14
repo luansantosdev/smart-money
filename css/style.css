@@ -402,21 +402,6 @@ p {
   font-weight: 300;
 }
 
-strong {
-  color: #161617;
-  font-family: "Din Condensed", sans-serif;
-  font-size: 16px;
-  line-height: 140%;
-}
-
-@media screen and (max-width: 960px) {
-  strong {
-    font-family: "Din Condensed", sans-serif;
-    font-size: 14px;
-    line-height: 150%;
-  }
-}
-
 span {
   position: relative;
   display: inline-block;
