@@ -39,7 +39,7 @@
 .container {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 64px 24px;
+  padding: 96px 24px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -442,7 +442,6 @@ a:hover {
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
   color: #232224;
-  z-index: 99;
   font-family: "Din Condensed", sans-serif;
 }
 
