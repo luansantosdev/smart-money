@@ -268,6 +268,18 @@
   }
 }
 
+.cinquenta-anos {
+  margin-left: 64px !important;
+  margin-right: 64px !important;
+}
+
+@media screen and (max-width: 960px) {
+  .cinquenta-anos {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+}
+
 @font-face {
   font-family: "Din Condensed";
   src: url("../fonts/DIN-Condensed - Regular.otf");
@@ -363,6 +375,21 @@ p {
   }
 }
 
+.p1 {
+  color: #f7f2fa;
+  font-family: "Din Condensed", sans-serif;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+@media screen and (max-width: 960px) {
+  .p1 {
+    font-family: "Din Condensed", sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+  }
+}
+
 .bold {
   font-weight: bold;
 }
@@ -390,13 +417,23 @@ strong {
   }
 }
 
-.text-center {
-  text-align: center;
-}
-
 span {
   position: relative;
   display: inline-block;
+}
+
+.h7 {
+  font-family: "Din Condensed", sans-serif;
+  font-size: 48px;
+  line-height: 120%;
+}
+
+@media screen and (max-width: 960px) {
+  .h7 {
+    font-family: "Din Condensed", sans-serif;
+    font-size: 40px;
+    line-height: 120%;
+  }
 }
 
 a {

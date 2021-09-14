@@ -139,6 +139,15 @@ p {
   }
 }
 
+.p1 {
+  color: $white-normal;
+
+  @include typeface-2(p2, desktop);
+  @include responsive(s) {
+    @include typeface-2(p2, mobile);
+  }
+}
+
 .bold {
   font-weight: bold;
 }
@@ -159,11 +168,15 @@ strong {
   }
 }
 
-.text-center {
-  text-align: center;
-}
-
 span {
   position: relative;
   display: inline-block;
+}
+
+.h7 {
+  @include typeface-1(h3, desktop);
+
+  @include responsive(s) {
+    @include typeface-1(h3, mobile);
+  }
 }

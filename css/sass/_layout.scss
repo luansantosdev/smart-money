@@ -206,3 +206,13 @@ $container-s: 540px;
     height: 350px;
   }
 }
+
+.cinquenta-anos {
+  margin-left: 64px !important;
+  margin-right: 64px !important;
+
+  @include responsive(s) {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+}
